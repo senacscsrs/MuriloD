@@ -1,0 +1,116 @@
+
+body {
+    background-color: #4b830d;
+   
+    color: white;
+  
+    font-family: arial black;
+ 
+    margin: 20px;
+}
+
+
+.borda-roxa {
+    border: 5px solid #8e44ad;
+    padding: 15px;
+}
+
+
+.cabecalho {
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    border-radius: 50px;
+    
+    border: 3px solid white;
+}
+
+
+.menu a {
+    color: white;
+    background-color: #e67e22;
+
+    padding: 10px 20px;
+    border-radius: 25px;
+  
+    text-decoration: none;
+  
+    margin-left: 10px;
+}
+@media (max-width: 768px) {
+  .header-content {
+    flex-direction: column;
+    gap: 10px;
+  }}
+
+
+
+
+
+.corpo-da-pagina {
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+ 
+}
+
+.area-de-texto {
+    width: 50%;
+    
+}
+
+.area-da-foto {
+    width: 50%;
+    text-align: center;
+}
+
+.area-da-foto img {
+    max-width: 90%;
+   
+}
+
+h1 {
+    font-size: 70px;
+    font-weight: bold;
+   
+    border-bottom: 6px solid #f1c40f;
+    display: inline-block;
+   
+    padding-bottom: 5px;
+}
+
+p {
+    font-size: 24px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+
+.botao-laranja {
+    background-color: #e67e22;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    padding: 15px 40px;
+    cursor: pointer;
+  
+}
+
+.botao-cinza {
+    background-color: #7f8c8d;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    padding: 15px 40px;
+    cursor: pointer;
+    margin-left: 15px;
+}
